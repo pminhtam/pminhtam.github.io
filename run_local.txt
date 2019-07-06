@@ -1,0 +1,16 @@
+https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
+https://www.mczerniawski.pl/blog/run-jekyll-localy-in-wsl/#updated-2019-03-01
+
+sudo install ruby
+sudo install gem
+
+gem install bundler
+
+Gemfile >
+	source 'https://rubygems.org'
+	gem 'github-pages', group: :jekyll_plugins
+
+sudo apt-get install ruby-all-dev zlib1g-dev libxslt1-dev libxml2-dev
+sudo gem install commonmarker
+bundle install
+bundle exec jekyll serve
